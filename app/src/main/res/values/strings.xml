@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WorkOut</string>
+    <string name="cardview_image">cardview_image</string>
+    <string name="start">START WORKOUT</string>
+    <string name="time">Time:</string>
+    <string name="pause">Pause</string>
+    <string name="resume_btn">Resume</string>
+    <string name="pick_random">PICK RANDOM</string>
+    <string name="shuffle">Shuffling...</string>
+    <string name="time_img">time_img</string>
+    <string name="mins">mins</string>
+    <string name="next_excercise">Next Excercise</string>
+    <string name="next_img">next_img</string>
+    <string name="number_of_sets">Number of Sets</string>
+    <string name="ok">Ok</string>
+    <string name="space_timer">\" : \"</string>
+    <string name="about_creator">About Developer</string>
+    <string name="sets">Sets</string>
+    <string name="routine_mode">Daily Mode</string>
+    <string name="random_mode">Random Mode</string>
+    <string name="today_is">Today is  </string>
+    <string name="about_me">\t\t I m technology geek and enthusiastic  in tech skills having a
+        experience in programming with Machine Learning,and been working on projects which can \nsolve some of the mankind problems.</string>
+    <string name="ashish_zingade">Ashish Zingade</string>
+    <string name="timetaken">Time taken to build the Application : 13 days</string>
+</resources>

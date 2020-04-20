@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="380sp"
+    android:layout_height="180sp"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    app:cardCornerRadius="25sp"
+    app:cardElevation="25sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="?attr/textAppearancePopupMenuHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="@string/number_of_sets"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+
+        <EditText
+            android:id="@+id/sets_txt"
+            style="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:autofillHints="20"
+            android:inputType="number"
+            android:labelFor="@id/sets_txt"
+            android:paddingTop="5sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/set_btn"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15sp"
+            android:text="@string/ok" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

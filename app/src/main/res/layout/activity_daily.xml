@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daily"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_margin="5sp"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="10sp">
+
+            <TextView
+                android:id="@+id/week_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/today_is"
+                android:textSize="28sp"
+                android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/daily_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:clipToPadding="true"
+        android:scrollbars="vertical"/>
+    <LinearLayout
+        android:id="@+id/btn_start_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_start_daily"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="bottom"
+            android:layout_margin="15sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#4d4c7d"
+            app:cardCornerRadius="25sp"
+            app:cardElevation="15sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/start"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

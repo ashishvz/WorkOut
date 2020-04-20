@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Excerise">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:padding="15sp"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="10sp">
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="00:00"
+            android:textSize="50sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:padding="15sp"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15sp"
+                android:padding="15sp"
+                android:textSize="50sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="@color/cardview_dark_background" />
+
+            <ImageView
+                android:id="@+id/ex_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:contentDescription="count_image"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15sp"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="10sp">
+        <LinearLayout
+            android:layout_margin="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="70sp"
+            android:elevation="15sp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="70sp"
+            android:elevation="15sp"
+            android:layout_marginStart="15sp">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="70sp"
+            android:elevation="15sp"
+            android:layout_marginStart="15sp">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10sp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="70sp"
+            android:elevation="15sp"
+            android:layout_marginStart="15sp">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="70sp"
+            android:elevation="15sp"
+            android:layout_marginStart="15sp">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
